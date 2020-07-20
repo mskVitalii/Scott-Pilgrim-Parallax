@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    margin: 0px;
+    overflow: hidden;
+}
+.parallax-page{
+    position: absolute;
+    left: 15vw;
+}
+
+button{
+    position: absolute;
+    width: 10vw;
+    height: 100vh;
+    background-color: transparent;
+    font-size: xx-large;
+    color: thistle;
+    outline: none;
+    border: none;
+    font-size: 5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 90vh;
+}
+
+button#next{
+    left: 90vw;
+    vertical-align: bottom;
+    padding-right: 0.5em;
+}
+button#previous{
+    vertical-align: bottom;
+    padding-left: 0.5em;
+}
+
+button#previous:hover{
+    box-shadow: 20px 0px 0px burlywood inset;
+    color: burlywood;
+}
+button#next:hover{
+    box-shadow: -20px 0px 0px burlywood inset;
+    color: burlywood;
+}
+
+.rightInfo{
+    color: grey;
+}
+
+p.rightInfo{
+    position: absolute;
+    left: 1vw;
+    top: 97%;
+}
