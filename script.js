@@ -11,7 +11,7 @@ class Page {
 let pages = [
     new Page(`<div data-depth="0.5" class="layer1"><img src="./items/p1.jpg"></div>
               <div data-depth="0.6" class="layer2"><img src="./items/Scott-p1.png"></div>`, 
-              `.layer1 { position: absolute; filter: blur(3px);} 
+              `.layer1 { position: absolute; filter: blur(2.5px);} 
                .layer2 { position: absolute; }`),
     // new Page('', ''),
 ];
